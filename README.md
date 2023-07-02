@@ -18,7 +18,7 @@ This repository contains the design of a financial application for mobile device
 </br>
 
 
-O aplicativo financeiro é uma representação visual de um app que permite aos usuários gerenciar suas finanças pessoais de forma fácil e conveniente. Ele fornece recursos para controlar despesas, acompanhar receitas, definir metas financeiras e visualizar relatórios detalhados.
+This conceptual project is a visual representation of an app that allows users to manage their personal finances easily and conveniently. It provides features to track expenses, track income, set financial goals and view detailed reports.
 </br>
 
 
