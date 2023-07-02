@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Concept Finance App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <!--Animate On Scroll Library-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <!--Style Main-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    
+    <video id="background-video" autoplay loop muted poster="https://wallpapers.com/images/high/forex-chart-green-and-red-color-39zovc74wtmcf1w6.webp">
+        <source src="./mp4/background_video.mp4" type="video/mp4">
+    </video>
+    
+    <div class="container" data-aos="flip-right" >
+        <div class="pt-5 px-2 d-flex flex-row justify-content-between" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <i class="fas fa-arrow-left nav-icon"></i>
+            <i class="far fa-bell nav-icon position-relative">
+                <div class="dot position-absolute"></div>
+            </i>
+        </div>
+
+        <div class="text-center mt-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+            <span class="heading">Statistics</span>
+        </div>
+
+        <div class="text-center" data-aos="fade-left">
+            <span class="sub-heading">See your money information in real time</span>
+        </div>
+
+        <div class="d-flex flex-row mt-5 mx-2 justify-content-between align-items-center menu" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+            <span class="px-4 py-2 active">expense</span> 
+            <span class="px-4 py-2">Income</span> 
+            <span class="px-4 py-2">Savings</span> 
+        </div>
+
+        <div class="d-flex flex-row mt-3 mx-2 align-items-center"  data-aos="zoom-in" data-aos-duration="3000">
+            <span class="filter px-3 py-3 mr-2">Daily</span>
+            <span class="filter px-3 py-3 mr-2 filter-active">Weekly</span>
+            <span class="add-filter px-3 py-3">
+                <i class="fas fa-plus filter-icon"></i>Add Filter
+            </span>
+        </div>
+
+        <div class="d-flex flex-column chart-bg mx-2 mt-2">
+            <div class="d-flex flex-row justify-content-between align-items-center p-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                <span class="expense-label col-2">Your Expense</span>
+                <span class="expense"><span class="dollar_sign">+$</span>750,45</span>
+            </div>
+
+        <div id="dashboard" class="d-flex flex-row justify-content-between align-items-end p-4">
+            
+            <div class="d-flex flex-column align-items-center">
+                <div class="position-relative">
+                    <div class="bar-1 position-absolute" style="height: 159px;" data-aos="fade-up" data-aos-duration="2000"></div>
+                    <div class="bar-2" style="height: 185px;"></div>
+                </div>
+                <span class="chart-label mt-3">Mon</span>
+            </div>
+
+            <div class="d-flex flex-column align-items-center">
+                <div class="position-relative">
+                    <div class="bar-1 position-absolute" style="height: 110px;" data-aos="fade-up" data-aos-duration="3000"></div>
+                    <div class="bar-2" style="height: 140px;"></div>
+                </div>
+                <span class="chart-label mt-3">Tue</span>
+            </div>
+
+            <div class="d-flex flex-column align-items-center">
+                <div class="position-relative">
+                    <div class="bar-1 position-absolute" style="height: 95px;" data-aos="fade-up" data-aos-duration="3000"></div>
+                    <div class="bar-2" style="height: 110px;"></div>
+                </div>
+                <span class="chart-label mt-3">Wed</span>
+            </div>
+
+            <div class="d-flex flex-column align-items-center">
+                <div class="position-relative">
+                    <div class="bar-1 position-absolute" style="height: 128px;" data-aos="fade-up" data-aos-duration="4000"></div>
+                    <div class="bar-2" style="height: 150px;"></div>
+                </div>
+                <span class="chart-label mt-3">Thu</span>
+            </div>
+
+            <div class="d-flex flex-column align-items-center">
+                <div class="position-relative">
+                    <div class="bar-1 position-absolute" style="height: 34px;" data-aos="fade-up" data-aos-duration="5000"></div>
+                    <div class="bar-2" style="height: 50px;"></div>
+                </div>
+                <span class="chart-label mt-3">Fri</span>
+            </div>
+
+            <div class="d-flex flex-column align-items-center">
+                <div class="position-relative">
+                    <div class="bar-1 position-absolute" style="height: 67px;" data-aos="fade-up" data-aos-duration="3000"></div>
+                    <div class="bar-2" style="height: 90px;"></div>
+                </div>
+                <span class="chart-label mt-3">Sat</span>
+            </div>
+
+            <div class="d-flex flex-column align-items-center">
+                <div class="position-relative">
+                    <div class="bar-1 position-absolute" style="height: 139px;" data-aos="fade-up" data-aos-duration="2000"></div>
+                    <div class="bar-2" style="height: 156px;"></div>
+                </div>
+                <span class="chart-label mt-3">Sum</span>
+            </div>
+        </div>
+    </div>
+</div> 
+</div>
+
+    <!--Animate On Scroll Library-->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+          once: true,
+          duration: 1000
+        });
+      </script>
+      <!--===============-->
+</body>
+</html>

@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+    font-family: 'lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+.container {
+    width: 350px;
+    height: 720px;
+    border-radius: 40px;
+    margin-top: 10px;
+    background-color: #000000d4;
+    box-shadow: rgba(46, 240, 159, 0.4) 5px 5px, 
+    rgba(46, 240, 172, 0.3) 10px 10px, 
+    rgba(46, 240, 114, 0.2) 15px 15px, 
+    rgba(46, 240, 69, 0.1) 20px 20px, 
+    rgba(46, 240, 214, 0.05) 25px 25px;
+}
+
+i, .nav-icon {
+    color: #585f8b;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background: #02f2fe;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+}
+
+.dollar_sign {
+    color: #12a428;
+}
+
+.heading {
+    font-size: 2em;
+    color: #ffffff;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.sub-heading {
+    color: #c5c6c4;
+    font-weight: 700;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+}
+
+.menu {
+    background: #162037;
+    color: #585F8B;
+    border-radius: 10px;
+    font-weight: 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.active {
+    background: linear-gradient(to right, #5dc2c7, #188789, #5dc2c7);
+    border-radius: 10px;
+    color: #fff0ff;
+    margin: 5px;
+}
+
+.filter {
+    border-radius: 10px;
+    background: #162037;
+    color: #585F8B;
+    font-weight: 900;
+    font-size: 12px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.add-filter {
+    background: #162037;
+    border-radius: 10px;
+    color: #585F8B;
+    border: 1px solid #585F8B;
+    font-weight: 900;
+    font-size: 12px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.filter-icon {
+    font-size: 10px;
+}
+
+.filter-active {
+    color: #fff0ff ;
+}
+
+.expense-label {
+    color: #fff0ff;
+    position: relative;
+    z-index: 0;
+}
+
+.expense-label::before {
+    content: "";
+    position: absolute;
+    background: #186c68;
+    width: 64px;
+    height: 9px;
+    top: 38px;
+    left: 4px;
+    z-index: -1;
+}
+
+.expense {
+    color: #fff0ff;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 34px;
+}
+
+.bar-1 {
+    bottom: 0;
+    width: 20px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #93e9cb, #056f53);
+}
+
+.bar-2 {
+    width: 20px;
+    border-radius: 5px;
+    background: #2a3350;
+}
+
+#dashboard {
+    height: 250px;
+}
+.chart-label {
+    font-size: 10px;
+    font-weight: 900;
+    color: #585F8B;
+}
+
+.chart-bg {
+    background-color: #162037;
+    border-radius: 25px;
+}
