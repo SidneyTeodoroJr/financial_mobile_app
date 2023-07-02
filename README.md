@@ -22,7 +22,7 @@ This conceptual project is a visual representation of an app that allows users t
 </br>
 
 
-## Como Utilizar
+## How to use
 </br>
 
 
