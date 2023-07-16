@@ -2,7 +2,7 @@
 </br>
 
 <div align="center">
-<a href="https://financialmobileapp.netlify.app/" target="_blank">
+<a href="https://sidneyteodorojr.github.io/financial_mobile_app/" target="_blank">
 <img src="img/design_concept_finance_app.png" alt="gradient">
 </a>
 </div>
@@ -12,7 +12,7 @@
 
 This repository contains the design of a financial application for mobile devices, created using Bootstrap, CSS and HTML. The app's design was developed for conceptual purposes.
 
-<h3 align="left"><a href="https://financialmobileapp.netlify.app/">Live demo>></a></h3>
+<h3 align="left"><a href="https://sidneyteodorojr.github.io/financial_mobile_app/">Live demo>></a></h3>
 </br>
 
 
