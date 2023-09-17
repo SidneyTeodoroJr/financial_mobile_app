@@ -3,7 +3,7 @@
 
 <div align="center">
 <a href="https://sidneyteodorojr.github.io/financial_mobile_app/" target="_blank">
-<img src="img/design_concept_finance_app.png" alt="gradient">
+<img src="img/design_concept_finance_app.png" alt="Mobile App Design">
 </a>
 </div>
 </br>
